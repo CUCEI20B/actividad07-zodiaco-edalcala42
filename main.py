@@ -1,68 +1,65 @@
 dia = (input())
 mes = (input())
-signo = " "
 
 if mes == "1":
     if dia < "21":
-        signo = "eres capricornio"
+        print("capricornio")
     else:
-        signo = "eres acuario"
+        print("acuario")
 elif mes == "2":
     if dia < "20":
-        signo = "eres acuario"
+        print("acuario")
     else:
-        signo = "eres piscis"
+        print("piscis")
 elif mes == "3":
     if dia < "21":
-        signo = "eres piscis"
+        print("piscis")
     else:
-        signo = "eres aries"
+        print("aries")
 elif mes == "4":
     if dia < "20":
-        signo = "eres aries"
+        print("aries")
     else:
-        signo = "eres tauro"  
+        print("tauro")    
 elif mes == "5":
     if dia < "21":
-        signo = "eres tauro"
+        print("tauro")
     else:
-        signo = "eres géminis"
+        print("géminis")
 elif mes == "6":
     if dia < "22":
-        signo = "eres géminis"
+        print("géminis")
     else:
-        signo = "eres cáncer"
+        print("cáncer")
 elif mes == "7":
     if dia < "24":
-        signo = "eres cáncer"
+        print("cáncer")
     else:
-        signo = "eres leo"
+        print("leo")
 elif mes == "8":
     if dia < "24":
-        signo = "eres leo"
+        print("leo")
     else:
-        signo = "eres virgo"
+        print("virgo")
 elif mes == "9":
     if dia < "23":
-        signo = "eres virgo"
+        print("virgo")
     else:
-        signo = "Eres Libra"
+        print("Libra")
 elif mes == "10":
     if dia < "23":
-        signo ="eres libra"
+        print("libra")
     else:
-        signo = "eres escorpión"
+        print("escorpión")
 elif mes == "11":
     if dia < "23":
-        signo = "eres escorpión"
+        print("escorpión")
     else:
-        signo = "eres sagitario"
+        print("sagitario")
 elif mes == "12":
     if dia < "23":
-        signo = "eres sagitario"
+        print("sagitario")
     else:
-        signo = "eres acuario"
+        print("acuario")
 else:
-    signo = "mes no valido"   
-
-print (signo)
+    print("mes no valido")    
