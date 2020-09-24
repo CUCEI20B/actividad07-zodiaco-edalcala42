@@ -45,7 +45,7 @@ elif mes == "9":
     if dia < "23":
         print("virgo")
     else:
-        print("Libra")
+        print("libra")
 elif mes == "10":
     if dia < "23":
         print("libra")
