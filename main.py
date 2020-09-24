@@ -10,9 +10,9 @@ elif(mes == "3" and dia > "20") or (mes == "4" and dia < "21"):
 elif(mes == "4" and dia > "20") or (mes == "5" and dia < "21"):
     print("tauro")    
 elif(mes == "5" and dia > "20") or (mes == "6" and dia < "21"):
-    print("géminis")
+    print("geminis")
 elif(mes == "6" and dia > "20") or (mes == "7" and dia < "21"):
-    print("cáncer")
+    print("cancer")
 elif(mes == "7" and dia > "20") or (mes == "8" and dia < "21"):
     print("leo")
 elif(mes == "8" and dia > "20") or (mes == "9" and dia < "21"):
