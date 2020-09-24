@@ -1,5 +1,5 @@
-dia = (input())
-mes = (input())
+dia = input()
+mes = input()
 
 if (mes == "1" and dia >= "20") or (mes == "2"and dia <= "18"):
     print("acuario")
