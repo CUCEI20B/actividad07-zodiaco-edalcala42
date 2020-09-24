@@ -61,5 +61,4 @@ elif mes == "12":
         print("sagitario")
     else:
         print("acuario")
-else:
-    print("mes no valido")    
+   
